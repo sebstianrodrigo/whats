@@ -75,13 +75,13 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 700px;
-  margin-left: -10px;
+  width: 1000px;
+  margin-left: -52px;
   bottom: 320px;
   justify-items: center;
   transition: .5s;
   border-radius: 10px;
-  background-color: orange;
+  background-color: ghostwhite;
   /* offset-x > | offset-y ^| blur-radius | spread-radius | color */
   -webkit-box-shadow: 2px 1px 6px 0px rgba(68, 68, 68, 0.705);
   -moz-box-shadow: 2px 1px 6px 0px rgba(68, 68, 68, 0.705);
@@ -115,13 +115,13 @@
   border: none;
   outline: none;
   cursor: pointer;
-  background-color: #4cc370;
+  background-color: #692292;
   -webkit-box-shadow: 1px 1px 2px 0px rgba(68, 68, 68, 0.705);
   -moz-box-shadow: 1px 1px 2px 0px rgba(68, 68, 68, 0.705);
   box-shadow: 1px 1px 2px 0px rgba(68, 68, 68, 0.705);
 }
 .closePopup:hover {
-  background-color: #3d9e5a;
+  background-color: #692292;
   transition: .3s;
 }
 
@@ -129,10 +129,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
-  background-color: rgb(28, 209, 209);
+  background-color: black;
   margin: 0px 0px 0px 5px;
   border: none;
   outline: none;
@@ -140,14 +140,14 @@
   
 }
 .send-msPopup:hover {
-  background-color: brown;
+  background-color: black;
   transition: .3s;
 }
 
 .is-active-whatsapp-popup {
   display: flex;
   animation: slideInRight .6s 0.0s both;
-  background-color: orange;
+  background-color: ghostwhite;
 }
 
 input.whats-input[type=text] {
@@ -167,7 +167,7 @@ input.whats-input[type=text] {
 
 input.whats-input::placeholder {
   /* Most modern browsers support this now. */
-  color: rgba(68, 68, 68, 0.705);
+  color: black;
   opacity: 1;
 }
 input.whats-input[type=text]:focus {
@@ -192,5 +192,5 @@ input.whats-input[type=text]:focus {
 }
 
 .icon-font-color--black {
-  color: #333333;
+  color: black;
 }
